@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista 83 - Instituto Juan XXIII</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(135deg, #ffeb3b, #fdd835);
+      padding: 60px 20px;
+      animation: fadeInDown 1.5s ease;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    header img {
+      max-width: 150px;
+      animation: zoomIn 2s ease;
+    }
+    header h1 {
+      margin: 20px 0 0;
+      font-size: 2.8em;
+      font-weight: bold;
+      color: #222;
+      animation: fadeInUp 2s ease;
+    }
+    section {
+      padding: 50px 25px;
+      max-width: 900px;
+      margin: auto;
+      text-align: justify;
+      line-height: 1.7;
+      animation: fadeIn 2s ease;
+      background: #fff;
+      margin-top: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #444;
+      font-size: 1.8em;
+    }
+    footer {
+      background: linear-gradient(135deg, #fdd835, #ffeb3b);
+      padding: 30px 20px;
+      margin-top: 50px;
+      animation: fadeInUp 2s ease;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+      box-shadow: 0 -4px 15px rgba(0,0,0,0.1);
+    }
+    footer p {
+      font-size: 1.4em;
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #222;
+    }
+    .social-icons a img {
+      width: 60px;
+      height: 60px;
+      margin: 0 15px;
+      transition: transform 0.3s, filter 0.3s;
+      border-radius: 15px;
+    }
+    .social-icons a img:hover {
+      transform: scale(1.2) rotate(8deg);
+      filter: drop-shadow(0 0 10px #fff176);
+    }
+
+    /* Animaciones */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes zoomIn {
+      from { opacity: 0; transform: scale(0.5); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo Lista 83">
+    <h1>Lista 83 - Instituto Juan XXIII</h1>
+  </header>
+
+  <section>
+    <h2>Presentación</h2>
+    <p>La <strong>Lista 83</strong> nace con el propósito de representar a los estudiantes, fomentar la participación activa y promover un espacio democrático dentro de nuestra institución. Nuestro compromiso es trabajar unidos para fortalecer valores como el respeto, la solidaridad y la libertad de expresión.</p>
+    <p>Queremos construir un camino donde cada voz cuente, donde cada idea sea escuchada y donde juntos podamos crecer como comunidad educativa. Somos una lista que apuesta al futuro y a la unión de todos los estudiantes.</p>
+    <p>El número <strong>83</strong> no fue elegido al azar: representa el año en que se recuperó la democracia en nuestro país tras un período de dictadura. Es un recordatorio del valor de la libertad, la importancia de la participación ciudadana y el derecho de cada persona a expresarse sin miedo. Por eso, lo llevamos como bandera en nuestra propuesta.</p>
+  </section>
+
+  <section>
+    <h2>Nuestros Colores</h2>
+    <p>Nuestra lista se identifica con los colores <strong>amarillo</strong> y <strong>blanco</strong>, inspirados en la bandera papal, símbolo de la Iglesia Católica y de su misión en el mundo. El blanco expresa paz, pureza y fe, mientras que el amarillo simboliza luz, esperanza y riqueza espiritual.</p>
+    <p>Como parte de una institución católica, estos colores reflejan también los valores que nos transmitió nuestro colegio: el respeto, la solidaridad, el compromiso con el prójimo y la búsqueda constante de la verdad.</p>
+  </section>
+
+  <footer>
+    <p>¡Seguinos!</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/_lista83" target="_blank">
+        <img src="instagram.png" alt="Instagram">
+      </a>
+      <a href="https://chat.whatsapp.com/HjUFwU5VfFQHP1MbauYQDN" target="_blank">
+        <img src="whatsapp.png" alt="WhatsApp">
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
